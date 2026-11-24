@@ -3,8 +3,11 @@
 The new levintonrealty.com: a one-page site (Home, Services, About, Our Office, Find a Property, Contact) in plain HTML, ready for Netlify. There is no build step and nothing to install.
 
 ```
-index.html        the homepage
-thanks.html       page shown after someone sends a form
+index.html        the homepage (English)
+thanks.html       page shown after someone sends a form (English)
+es/index.html     the homepage in Spanish
+es/gracias.html   thank-you page in Spanish
+favicon.ico       browser-tab icon
 netlify.toml      Netlify settings (caching, redirects from the old Squarespace addresses)
 assets/           logo, hero photo, favicon, social-sharing image
 ```
@@ -34,11 +37,14 @@ Only do this once you're happy with the site on the temporary address. Until the
 2. Netlify shows the DNS records to set. Change them wherever the domain is managed (Squarespace Domains if you bought it there).
 3. Netlify turns on HTTPS automatically once the domain points to it. After that you can cancel the Squarespace website plan, but keep the domain registration.
 
+## Editing text
+
+The English and Spanish pages are separate files. When you change wording on one, make the same change on the other (`index.html` and `es/index.html`).
+
 ## Changing photos
 
 The hero photo is `assets/hero-2400.jpg`, with a smaller `assets/hero-1200.jpg` for phones. To change it, open the `assets` folder here, click **Add file → Upload files**, and upload new files with the same names.
 
 ## Still to do
 
-- **Spanish version:** the ES link in the menu doesn't go anywhere yet.
 - **Terms & Policies:** the footer link is a placeholder until that page exists.
