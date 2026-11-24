@@ -1,0 +1,64 @@
+# Netlify settings for levintonrealty.com
+# This is a plain HTML site: no build step, Netlify serves the files as they are.
+
+[build]
+  publish = "."
+
+# Cache images for a week
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+# Send visitors (and Google) from the old Squarespace page addresses to the
+# matching section of the new one-page site.
+[[redirects]]
+  from = "/en/about-us"
+  to = "/#about"
+  status = 301
+
+[[redirects]]
+  from = "/es/nosotros"
+  to = "/#about"
+  status = 301
+
+[[redirects]]
+  from = "/en/services"
+  to = "/#services"
+  status = 301
+
+[[redirects]]
+  from = "/es/servicios"
+  to = "/#services"
+  status = 301
+
+[[redirects]]
+  from = "/en/property-search"
+  to = "/#find"
+  status = 301
+
+[[redirects]]
+  from = "/es/buscar-propiedad"
+  to = "/#find"
+  status = 301
+
+[[redirects]]
+  from = "/en/connect"
+  to = "/#contact"
+  status = 301
+
+[[redirects]]
+  from = "/es/hablemos"
+  to = "/#contact"
+  status = 301
+
+[[redirects]]
+  from = "/es/inicio"
+  to = "/"
+  status = 301
