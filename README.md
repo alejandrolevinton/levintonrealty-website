@@ -7,6 +7,8 @@ index.html        the homepage (English)
 thanks.html       page shown after someone sends a form (English)
 es/index.html     the homepage in Spanish
 es/gracias.html   thank-you page in Spanish
+privacy.html      privacy policy (English)
+es/privacidad.html  privacy policy (Spanish)
 favicon.ico       browser-tab icon
 netlify.toml      Netlify settings (caching, redirects from the old Squarespace addresses)
 assets/           logo, hero photo, favicon, social-sharing image
@@ -44,7 +46,3 @@ The English and Spanish pages are separate files. When you change wording on one
 ## Changing photos
 
 The hero photo is `assets/hero-2400.jpg`, with a smaller `assets/hero-1200.jpg` for phones. To change it, open the `assets` folder here, click **Add file → Upload files**, and upload new files with the same names.
-
-## Still to do
-
-- **Terms & Policies:** the footer link is a placeholder until that page exists.
