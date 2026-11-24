@@ -9,6 +9,9 @@ es/index.html     the homepage in Spanish
 es/gracias.html   thank-you page in Spanish
 privacy.html      privacy policy (English)
 es/privacidad.html  privacy policy (Spanish)
+404.html          page shown when an address doesn't exist (English and Spanish)
+sitemap.xml       list of pages for Google (both languages)
+robots.txt        tells search engines where the sitemap is
 favicon.ico       browser-tab icon
 netlify.toml      Netlify settings (caching, redirects from the old Squarespace addresses)
 assets/           logo, hero photo, favicon, link-preview image (share.jpg)
