@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://levintonrealty.com/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://levintonrealty.com/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://levintonrealty.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://levintonrealty.com/"/>
+  </url>
+  <url>
+    <loc>https://levintonrealty.com/es/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://levintonrealty.com/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://levintonrealty.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://levintonrealty.com/"/>
+  </url>
+  <url>
+    <loc>https://levintonrealty.com/privacy.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://levintonrealty.com/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://levintonrealty.com/es/privacidad.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://levintonrealty.com/privacy.html"/>
+  </url>
+  <url>
+    <loc>https://levintonrealty.com/es/privacidad.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://levintonrealty.com/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://levintonrealty.com/es/privacidad.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://levintonrealty.com/privacy.html"/>
+  </url>
+</urlset>
