@@ -11,7 +11,7 @@ privacy.html      privacy policy (English)
 es/privacidad.html  privacy policy (Spanish)
 favicon.ico       browser-tab icon
 netlify.toml      Netlify settings (caching, redirects from the old Squarespace addresses)
-assets/           logo, hero photo, favicon, social-sharing image
+assets/           logo, hero photo, favicon, link-preview images (share-en.jpg, share-es.jpg)
 ```
 
 ## Publish it with Netlify (one time)
