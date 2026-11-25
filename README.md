@@ -31,8 +31,8 @@ From then on, every change committed to this repository goes live on Netlify aut
 The "Start your search" and "Let's talk" forms use Netlify Forms.
 
 1. In Netlify, open the site and go to **Forms**. Turn on **form detection** if Netlify asks you to, then redeploy once (**Deploys → Trigger deploy**).
-2. Two forms will appear: `property-request` and `contact`.
-3. Under **Forms → Form notifications**, add an email notification to info@levintonrealty.com so new messages reach your inbox.
+2. Four forms will appear: `property-request` and `contact` (English pages), and `property-request-es` and `contact-es` (Spanish pages). Each language has its own form name so visitors get the thank-you page in their language.
+3. Under **Forms → Form notifications**, add an email notification to info@levintonrealty.com for **any form** (or one for each of the four forms) so new messages reach your inbox.
 
 ## Point levintonrealty.com to Netlify
 
